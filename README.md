@@ -9,6 +9,8 @@
 
 ---
 
-/
+```
+.
 |--/src contains the markdown document of the resume
 |--/bin contains pdf and word versions of the resume
+```
