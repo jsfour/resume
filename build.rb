@@ -6,7 +6,7 @@ class Resume
   def build! file_types=[:docx]
     @types = []
     @created_files ||= []
-    @source = "src/JimiSmootResume.md"
+    @source = "src/resume.md"
     puts 'Creating Documents:'
     file_types.each do |file_type|
       type = Type.new(file_type, "jimiSmootResume.#{file_type.to_s}")

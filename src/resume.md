@@ -10,6 +10,7 @@ Experienced builder looking to write code.
 ### Recent Projects
 **Ongoing**
 
+- **Resume Project: (https://github.com/jsmootiv/resume)** The script that built this resume.
 - **Bettermeeting: (http://try.getbettermeeting.com)** A SaaS for creating meeting agendas and taking collaborative, real time notes. Written in Emberjs with localStorage/Firebase.
 - **Recirq: (Local)** A twitter analysis tool that uses statistics to help understand more about audiences. The tool allowed me to increase my twitter followers by 28% in 4 months. Written in Ruby On Rails with PostgreSQL
 - **Growthbench (Local):** A twitter tool developed to identify and communicate with twitter influencers. Written in Ruby on Rails with MongoDB.

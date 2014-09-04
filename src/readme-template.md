@@ -1,42 +1,76 @@
 ## Resume For Jimi Smoot IV
-{{RESUME-LINKS}}
 
-### Contact Info
-- **Email: jsfour {{at}} gmail {{dot}} com < Best place to contact me**
-- Linkedin: (http://linkedin.com/in/jsfour)
-- Twitter: (http://twitter.com/jsfour)
-- Github: (http://github.com/jsmootiv)
-
----
-
-### What is this?
-
-You've found me (or I directed you here). This git repo is an example of what I do. I solve problems. 
-
-Take a look around, this repo should give you an idea about how I think through things.
+### What is this Repo?
+On the most basic level, this is is my (Jimi Smoot IV's) resume. More importantly, it is a working example of code that I have written and how I approach solving a problem.
 
 **Problem:**
 
-The main problem that I was having is that I need my resume to be outputted in to multiple formats. I did not want to use any existing rich text editing tool (like word) because I don't want to be stuck paying for a license forever just to update my resume. I also wanted to make it easy for peope to contact me, so I pre-wrote an email that you can send to me by [clicking here to tell me about a job]({{EMAIL-LINK}})
+First and foremost, I need a job.
 
-**Solution:**
+When creating a resume, I usually create a word document, but when my last Macbook Pro ate it, I also lost of license of Office --it was a single install license. Although there are...other means...by which to procure the software, I feel that if I need something, I should pay for it because that means it is valuable. 
 
-Borrowing from things like [Jekyll](http://jekyllrb.com), I built a quick little script that 'builds' my resume from 'source' (markdown) into 'html', 'psd', and 'docx' so that no matter what, the information on all of the resumes is in sync.
+I knew that there had to be another way. Ultimately, I determined that it would be best if I am free from Office. One, however, can not be completely free from Office because other people, especially the ones that hire, use Office every day. In order for my resume to be compatible with the most potential hiring managers, it would need to exist in multiple types.
 
-### Why markdown?
-I really like markdown because it can be written in any plain old text buffer. That means that you are focused on writing text and worry about formatting it later. Plus I can write it in Sublime Text :)
+I also wanted to make it easy for people to contact me --because how can you get a job if people can't get a hold of you.
 
-### Why am I doing this?
-I am am hoping to find a job. I live in Santa Monica and have been writing Ruby (mostly Rails) since 2011. I have also been 
+The final problem is that most of the code that I work on is owned by myself or someone else. I rarely contribute to open source projects --not enough time. So people ask me for my github and it looks like a ghost town.
 
+To recap, here are my main problems:
+1. I need to be able to create my resume in multiple formats without buying any software
+2. It should be easy for people to email me
+3. People should know that I can build things by looking at my github profile.
 
-### What you should do now:
+**Multi format resume solution:**
+
+Borrowing from things like [Jekyll](http://jekyllrb.com) I built a quick little script that 'builds' my resume from 'source' (markdown) into 'html', 'psd', and 'docx' so that no matter what the information on all of the resumes is in sync and in multiple formats.
+
+Links To The Various Formats:
+{{RESUME-LINKS}}
+
+**EASY email solution:**
+
+On built, my script also replace the destination of [this link so that all you need to do is click here and click the send button to contact me with a message from a template.]({{EMAIL-LINK}})
+
+**Github code solution:**
+
+This entire project solves this problem.
+
+### Isn't this overkill?
+Probably. But I don't have many public repos because I spend most of my time working on code for companies. I figured that this would be a good way to get something on my public github page so that you know I can build things.
+
+### Why am I doing this? 
+I am am hoping to find a job. I live in Santa Monica but am open to working remotely on full time or part time projects. I have been writing Ruby (mostly with Rails) since 2011 and have recently been experimenting with Ember. I grew up kicking around in a Slackware system.
+
+### What to do next
+Check out my resume:
 {{RESUME-LINKS}}
 
 **then**
 
-[Email me to let me know if you have a position available]({{EMAIL-LINK}})
+[Email me to let me know if you have a position available]({{EMAIL-LINK}}) of if you just want to chat.
 
+### Where you can find me
+- Email: [Shoot me an email]({{EMAIL-LINK}})
+- Linkedin: [http://linkedin.com/in/jsfour](http://linkedin.com/in/jsfour)
+- Twitter: [http://twitter.com/jsfour](http://twitter.com/jsfour)
+- Github: [http://github.com/jsmootiv](http://github.com/jsmootiv)
+
+---
+
+### Usage
+1. Fork
+2. Download Dependencies
+3. Modify src/resume.md & src/email_template.md
+4. Run the builder
+```
+./build.rb
+```
+5. Send the resume to your friends!
+6. Get a job!
+
+### Dependencies
+- Pandoc (https://github.com/jgm/pandoc)
+- BasicTeX (http://www.tug.org/mactex/morepackages.html)
 
 ### Repo Structure
 ```
@@ -44,7 +78,3 @@ I am am hoping to find a job. I live in Santa Monica and have been writing Ruby 
 |--/src contains the markdown document of the resume
 |--/bin contains pdf and word versions of the resume
 ```
-
-### Dependencies
-- Pandoc (https://github.com/jgm/pandoc)
-- BasicTeX (http://www.tug.org/mactex/morepackages.html)
