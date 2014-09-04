@@ -1,7 +1,7 @@
 ## Resume For Jimi Smoot IV
-[Download a docx of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.docx)
-[Download a html of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.html)
-[Download a pdf of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.pdf)
+- [Download a docx of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.docx)
+- [Download a html of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.html)
+- [Download a pdf of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.pdf)
 
 ### Contact Info
 - **Email: jsfour {{at}} gmail {{dot}} com < Best place to contact me**
@@ -33,9 +33,9 @@ I am am hoping to find a job. I live in Santa Monica and have been writing Ruby 
 
 
 ### What you should do now:
-[Download a docx of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.docx)
-[Download a html of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.html)
-[Download a pdf of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.pdf)
+- [Download a docx of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.docx)
+- [Download a html of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.html)
+- [Download a pdf of my resume](https://github.com/jsmootiv/resume/raw/master/bin/jimiSmootResume.pdf)
 
 **then**
 

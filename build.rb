@@ -37,7 +37,7 @@ private
   def build_type_links types
     links = []
     types.each do |type|
-      links << "[Download a #{type.file_type.to_s.downcase} of my resume](#{type.raw_github_location})"
+      links << "- [Download a #{type.file_type.to_s.downcase} of my resume](#{type.raw_github_location})"
     end
     return links
   end
