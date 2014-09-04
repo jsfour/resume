@@ -14,3 +14,7 @@
 |--/src contains the markdown document of the resume
 |--/bin contains pdf and word versions of the resume
 ```
+
+## Dependencies
+- Pandoc (https://github.com/jgm/pandoc)
+- BasicTeX (http://www.tug.org/mactex/morepackages.html)
