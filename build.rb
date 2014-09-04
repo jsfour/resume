@@ -12,19 +12,27 @@ def build_link email, subject, message
 end
 
 def build_readme email, subject
-  file = IO.read('./src/README.md')
+  puts 'Building Readme File'
+  file_buffer = IO.read('./src/README.md')
   message = IO.read('./src/email_template.md')
-  file.gsub('{{EMAIL-LINK}}', %[[Email me to let me know if you have a position available](#{build_link(email, subject, message)})])
-  IO.write('./README.md', file)
+  file_buffer = file_buffer.gsub('{{EMAIL-LINK}}', %[[Email me to let me know if you have a position available](#{build_link(email, subject, message)})])
+  puts './README.md'
+  IO.write('./README.md', file_buffer)
 end
 
-types = [:docx, :html, :pdf]
-puts 'Creating Documents:'
-types.each do |type|
-  file_name = 'bin/jimiSmootResume.' + type.to_s
-  puts file_name
-  run_pandoc type, file_name
+def init
+  types = [:docx, :html, :pdf]
+  puts 'Creating Documents:'
+  types.each do |type|
+    file_name = 'bin/jimiSmootResume.' + type.to_s
+    puts file_name
+    run_pandoc type, file_name
+  end
+  build_readme 'jsfour@gmail.com', 'Job Opportunity'
 end
+
+init
+
 
 
 

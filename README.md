@@ -32,7 +32,7 @@ I am am hoping to find a job. I live in Santa Monica and have been writing Ruby 
 
 **then**
 
-{{EMAIL-LINK}}
+[Email me to let me know if you have a position available](mailto:jsfour@gmail.com?subject=Job Opportunity&body=Hi%20Jimi!%0A%0AI%20or%20someone%20I%20know%20would%20like%20to%20hire%20you.%20Lets%20connect%20sometime%20this%20week%20or%20next%20week%20to%20discuss.%20%0A%0AWhen%20are%20you%20free?)
 
 
 ### Repo Structure
