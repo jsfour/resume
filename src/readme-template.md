@@ -3,8 +3,7 @@
 ### What is this Repo?
 On the most basic level, this is is my (Jimi Smoot IV's) resume. More importantly, it is a working example of code that I have written and how I approach solving a problem.
 
-**Problem:**
-
+#### Problem:
 First and foremost, I need a job.
 
 When creating a resume, I usually create a word document, but when my last Macbook Pro ate it, I also lost of license of Office --it was a single install license. Although there are...other means...by which to procure the software, I feel that if I need something, I should pay for it because that means it is valuable. 
@@ -20,19 +19,16 @@ To recap, here are my main problems:
 2. It should be easy for people to email me
 3. People should know that I can build things by looking at my github profile.
 
-**Multi format resume solution:**
-
+#### Multi format resume solution:
 Borrowing from things like [Jekyll](http://jekyllrb.com) I built a quick little script that 'builds' my resume from 'source' (markdown) into 'html', 'psd', and 'docx' so that no matter what the information on all of the resumes is in sync and in multiple formats.
 
 Links To The Various Formats:
 {{RESUME-LINKS}}
 
-**EASY email solution:**
-
+#### EASY email solution:
 On built, my script also replace the destination of [this link so that all you need to do is click here and click the send button to contact me with a message from a template.]({{EMAIL-LINK}})
 
-**Github code solution:**
-
+#### Github code solution:
 This entire project solves this problem.
 
 ### Isn't this overkill?
